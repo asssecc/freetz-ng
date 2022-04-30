@@ -71,7 +71,9 @@ series (similar in construction) and transfer it to the device. A variety of ext
 	</a>
 	<br>
 	<figcaption><b>Figure 1</b>: Freetz configuration dialog from <i>make menuconfig</i> (Source: Zaugg S., 2022)</figcaption>
+	<br>
 </figure>
+
 
 **Flash firmware**
 ```
@@ -89,6 +91,7 @@ Modded firmware contains an customized web interface on `http port 81`:
 	</a>
 	<br>
 	<figcaption><b>Figure 2</b>: Freetz Web Interface on http port 81 (Source: Zaugg S., 2022)</figcaption>
+	<br>
 </figure>
 
 Note: The original web interface is still accessible on `http port 80`
