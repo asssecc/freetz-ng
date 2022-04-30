@@ -13,7 +13,7 @@ _base_setup() {
 	load '../tools/bats/bats-file/load'    # bats-file/README.md
 	load '../tools/bats/bats-mock/load'    # bats-mock/README.md
 
-    # make bash scripts in /tools visible for testsuite
-    PROJECT_ROOT="$( cd "$(dirname "$BATS_TEST_FILENAME" )/.." >/dev/null 2>&1 && pwd )"
+    	# make bash scripts in /tools visible for testsuite
+    	PROJECT_ROOT="$( cd "$(dirname "$BATS_TEST_FILENAME" )/.." >/dev/null 2>&1 && pwd )"
    	PATH="$PROJECT_ROOT/tools:$PATH"
 }

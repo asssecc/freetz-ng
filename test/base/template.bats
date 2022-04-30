@@ -8,8 +8,8 @@
 # for more infos about bats, see https://bats-core.readthedocs.io/
 
 setup() {
-    load 'base/testsuite'
-    _base_setup
+	load 'base/testsuite'
+	_base_setup
 }
 
 teardown() {
@@ -17,8 +17,8 @@ teardown() {
 }
 
 setup_file() {
-    load 'base/testsuite'
-    _base_setup
+	load 'base/testsuite'
+	_base_setup
 }
 
 teardown_file() {
