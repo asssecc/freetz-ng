@@ -69,6 +69,7 @@ series (similar in construction) and transfer it to the device. A variety of ext
 	<a href="docs/screenshots/282.png">   
 		<img id="freetz-cli-menuconfig" loading="lazy" src="docs/screenshots/282_md.png" alt="Freetz CLI - make menuconfig" width="447" height="333">
 	</a>
+	<br>
 	<figcaption><b>Figure 1</b>: Freetz configuration dialog from <i>make menuconfig</i> (Source: Zaugg S., 2022)</figcaption>
 </figure>
 
@@ -86,6 +87,7 @@ Modded firmware contains an customized web interface on `http port 81`:
 	<a href="docs/screenshots/281.png">   
 		<img id="freetz-web-interface" loading="lazy" src="docs/screenshots/281_md.png" alt="Freetz - Web Interface" width="447" height="333">
 	</a>
+	<br>
 	<figcaption><b>Figure 2</b>: Freetz Web Interface on http port 81 (Source: Zaugg S., 2022)</figcaption>
 </figure>
 
