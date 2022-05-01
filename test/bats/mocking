@@ -1,0 +1,17 @@
+#  author : sven zaugg
+#    file : mocking
+# purpose : non-functional, a compiled list of mocking features with bats, as of april 30, 2022 
+
+-------------------------------------
+Mocking
+modules/bats-mock/README.md
+-------------------------------------
+- mock_create
+- mock_set_status
+- mock_set_output
+- mock_set_side_effect
+- mock_get_call_num
+- mock_get_call_user
+- mock_get_call_args
+- mock_get_call_env
+- mock_set_exit_code

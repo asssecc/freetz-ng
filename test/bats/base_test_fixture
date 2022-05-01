@@ -1,0 +1,44 @@
+#!/usr/bin/env bash
+
+#  author : sven zaugg
+#    file : base_test_fixture
+# purpose : loads bats submodules and serves as base test fixture to be sourced
+#
+# for more infos about bats, see https://bats-core.readthedocs.io/
+
+__base_setup() {
+	local PROJECT_ROOT=$(__git_root_dir)
+	local BATS_ROOT=$PROJECT_ROOT/test/bats/modules
+
+	# load all external bats modules
+	load $BATS_ROOT/bats-support/load
+	load $BATS_ROOT/bats-assert/load 
+	load $BATS_ROOT/bats-file/load
+	load $BATS_ROOT/bats-mock/load
+
+    # set PATH to project's root for exposing testing environment, so that
+	# - this test-fixture can be reached everywhere
+	# - bats test files can access every shell script for testing
+   	PATH=$PROJECT_ROOT:$PATH 
+}
+
+# return git repository's root path 
+# implementation can handle git submodules
+__git_root_dir() {
+	rootDir="$(git rev-parse --show-toplevel 2>/dev/null)"
+
+	if [ $? -gt 0 ]; then
+		>&2 echo 'smells like teen spirits, nirvana! you are outside of git repository!'
+		exit 1
+	fi
+
+	_pwd=$(pwd)
+	if [ $_pwd = $rootDir ]; then
+		# if parent directory is also managed under git then we are in a submodule.
+		rootDir="$(git -C $(dirname $_pwd) rev-parse --show-toplevel 2>/dev/null)"
+		echo $rootDir
+		return 0
+	fi
+
+	echo $rootDir
+}
