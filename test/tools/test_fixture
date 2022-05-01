@@ -4,7 +4,7 @@
 #    file : test_fixture
 # purpose : test_fixture for /tools
 
-source ../bats/base_test_fixture
+source $(dirname $BATS_TEST_FILENAME)/../bats/base_test_fixture
 
 _base_setup() {
 	__base_setup

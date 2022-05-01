@@ -19,6 +19,7 @@ __base_setup() {
     # set PATH to project's root for exposing testing environment, so that
 	# - this test-fixture can be reached everywhere
 	# - bats test files can access every shell script for testing
+	# note: this PATH is only applied in a sandbox manner during bats execution
    	PATH=$PROJECT_ROOT:$PATH 
 }
 
@@ -28,7 +29,7 @@ __git_root_dir() {
 	rootDir="$(git rev-parse --show-toplevel 2>/dev/null)"
 
 	if [ $? -gt 0 ]; then
-		>&2 echo 'smells like teen spirits, nirvana! you are outside of git repository!'
+		>&2 echo 'access prohibited! you are outside of freetz repository. bats tests are meant to run in a sandbox manner. sorry dude!'
 		exit 1
 	fi
 

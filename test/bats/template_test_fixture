@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+#  author : sven zaugg
+#    file : template_test_fixture
+# purpose : template for creting a test_fixture with bats
+
+# adapt path for matching the enviornment accordingly
+source $(dirname $BATS_TEST_FILENAME)/base_test_fixture
+
+_base_setup() {
+	__base_setup
+}

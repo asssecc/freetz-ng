@@ -19,23 +19,13 @@
 # documentation
 # -----------------
 # for more infos about bats, see https://bats-core.readthedocs.io/
-# a reference list of all possible assertions can be found at /test/bats/assertions
-# a reference list for mocking can be found at /test/bats/mocking
-
-# pre-test hook: runs only ONCE BEFORE the first pre-test hook of setup() is run
-setup_file() {
-    load base_test_fixture
-    __base_setup
-}
-
-# post-test hook: runs only ONCE AFTER last post-test hook of teardown() is run
-teardown_file() {
-	: #noop
-}
+# a reference list of all possible assertions can be found at /test/bats/doc/assertions
+# a reference list for mocking can be found at /test/bats/doc/mocking
 
 # pre-test hook: gets invoked BEFORE EACH annotated @test method
 setup() {
-    : #noop
+	load 'base_test_fixture'
+	__base_setup
 }
 
 # post-test hook: gets invoked AFTER EACH annotated @test method
@@ -43,7 +33,17 @@ teardown() {
 	: #noop
 }
 
-@test "i'm gonna return successfully" {
+# pre-test hook: runs only ONCE BEFORE the first pre-test hook of setup() is run
+setup_file() {
+	: #noop
+}
+
+# post-test hook: runs only ONCE AFTER last post-test hook of teardown() is run
+teardown_file() {
+	: #noop
+}
+
+@test "example1: i'm gonna return successfully" {
 	# given
 	cmd=non-existing-shell-command
 	
@@ -57,10 +57,10 @@ teardown() {
 	assert_failure
 }
 
-@test "i wanna fail, yeah." {
+@test "example2: i wanna fail, yeah." {
 	fail 'good practise, fail first!'
 }
 
-@test "tests can be skipped" {
+@test "example3: tests can be skipped" {
 	skip "skipping, also known as rammstein song 'ich habe keine lust'";
 }
