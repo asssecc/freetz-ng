@@ -11,19 +11,21 @@ Freetz-NG firmware modification for ​AVM devices like FRITZ!
 >  **More features - less bugs!**
 
 [![stable-release-shields.io-url][stable-release-shields.io-url]][stable-release-github-url] 
+[![bats-core-shields.io-url][bats-core-shields.io-url]][bats-core-github-url] 
 [![github-page-shields.io-url][github-page-shields.io-url]][github-page-github.io-url] 
 [![gloc-shields.io-url][gloc-shields.io-url]][gloc-github-url] 
 [![license-shields.io-url][license-shields.io-url]][license-github-url] 
 
-[stable-release-shields.io-url]: https://img.shields.io/badge/release-ng22040-brightgreen
+[stable-release-shields.io-url]: https://img.shields.io/github/v/tag/Freetz-NG/freetz-ng.svg?logo=github&color=brightgreen&label=release
 [stable-release-github-url]: https://github.com/Freetz-NG/freetz-ng/releases/tag/ng22040
+[bats-core-shields.io-url]: https://img.shields.io/github/v/release/bats-core/bats-core.svg?color=blue&label=bats-core
+[bats-core-github-url]: https://github.com/bats-core/bats-core/releases/tag/v1.6.0
 [github-page-shields.io-url]: https://img.shields.io/badge/doc-freetz--ng.github.io-blue
 [github-page-github.io-url]: https://freetz-ng.github.io/freetz-ng
 [gloc-shields.io-url]: https://img.shields.io/badge/gloc-1.8m-blue
 [gloc-github-url]: https://github.com/kas-elvirov/gloc
 [license-shields.io-url]: https://img.shields.io/badge/license-GPL--2.0-blue
 [license-github-url]: https://github.com/Freetz-NG/freetz-ng/blob/master/LICENSE
-
 
 ## Table of Contents
 
