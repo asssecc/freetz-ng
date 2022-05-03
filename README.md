@@ -88,7 +88,7 @@ series (similar in construction) and transfer it to the device. A variety of ext
 
 ### Freetz: Web Interface
 
-Modded firmware contains an customized web interface on `http port 81`:  
+Modded firmware contains a customized web interface on `http port 81`:  
 
 **default acceess**  
 site: [http://fritz.box:81/](http://fritz.box:81/)  
@@ -135,6 +135,25 @@ Git cheat sheet: <a href="https://doabledanny.gumroad.com/l/git-commands-cheat-s
 **Checkout old revision**
 ```
   git checkout HASH-OF-COMMIT # -b NEW-BRANCH
+```
+
+**Tracking remote branches**  
+.. when you're starting to work on an existing remote branch:
+```
+git checkout --track origin/feature
+```
+... when you're publishing a local branch:
+```
+git push -u origin feature
+```
+... when you decide at a later point in time:
+```
+git branch -u origin/feature
+```
+
+**Cleaning outdated branches**  
+```
+git fetch --prune
 ```
 
 ### Mirrors
