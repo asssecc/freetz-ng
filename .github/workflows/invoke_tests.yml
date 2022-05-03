@@ -25,4 +25,4 @@ jobs:
           cd test
           pwd
           bash --version
-          bash -c "time ${{ matrix.env_vars }} test/test_runner"
+          bash -c "time ${{ matrix.env_vars }} ./test_runner"
