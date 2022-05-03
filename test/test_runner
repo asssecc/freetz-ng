@@ -11,13 +11,7 @@ declare -a EXCLUDE_TEST_FILES=(
     template_test.bats
 )
 
-# invokes bats utility. tests under TEST_DIR are run.
-# arguments:
-#   TEST_DIR  directory which contains bats tests
-invoke_bats() {
-    [ -z $1 ] && { echo "missing argument TEST_DIR. abort."; return 1; }
-    bats/modules/bats-core/bin/bats -T --print-output-on-failure --formatter tap $1
-}
-
-invoke_bats bats
-invoke_bats tools
+# invokes bats utility. tests under following directories are run:
+#   /bats
+#   /tools
+bats/modules/bats-core/bin/bats -T --print-output-on-failure --formatter pretty bats tools
