@@ -21,4 +21,4 @@ jobs:
           TERM: linux # fix tput for tty issue work around
         run: |
           bash --version
-          bash -c "time ${{ matrix.env_vars }} bin/bats  --print-output-on-failure --formatter tap test"
+          bash -c "time ${{ matrix.env_vars }} test/test_runner"
