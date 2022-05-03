@@ -1,0 +1,64 @@
+Script started on 2022-05-03 05:47:05+02:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="120" LINES="25"]
+[?2004h(base) ]0;svensson@ubuntu: ~/freetz-ng[01;32msvensson@ubuntu[00m:[01;34m~/freetz-ng[00m$ script --help
+[?2004l
+Usage:
+ script [options] [file]
+
+Make a typescript of a terminal session.
+
+Options:
+ -I, --log-in <file>           log stdin to file
+ -O, --log-out <file>          log stdout to file (default)
+ -B, --log-io <file>           log stdin and stdout to file
+
+ -T, --log-timing <file>       log timing information to file
+ -t[<file>], --timing[=<file>] deprecated alias to -T (default file is stderr)
+ -m, --logging-format <name>   force to 'classic' or 'advanced' format
+
+ -a, --append                  append to the log file
+ -c, --command <command>       run command rather than interactive shell
+ -e, --return                  return exit code of the child process
+ -f, --flush                   run flush after each write
+     --force                   use output file even when it is a link
+ -E, --echo <when>             echo input in session (auto, always or never)
+ -o, --output-limit <size>     terminate if output files exceed size
+ -q, --quiet                   be quiet
+
+ -h, --help                    display this help
+ -V, --version                 display version
+
+For more details see script(1).
+[?2004h(base) ]0;svensson@ubuntu: ~/freetz-ng[01;32msvensson@ubuntu[00m:[01;34m~/freetz-ng[00m$ tiem
+[?2004lCommand 'tiem' not found, did you mean:
+  command 'tie' from deb texlive-binaries (2021.20210626.59705-1build1)
+  command 'time' from deb time (1.9-0.1build2)
+  command 'tiemu' from deb tiemu (3.04~git20110801-nogdb+dfsg1-2build1)
+Try: sudo apt install <deb name>
+[?2004h(base) ]0;svensson@ubuntu: ~/freetz-ng[01;32msvensson@ubuntu[00m:[01;34m~/freetz-ng[00m$ time
+[?2004l
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+[?2004h(base) ]0;svensson@ubuntu: ~/freetz-ng[01;32msvensson@ubuntu[00m:[01;34m~/freetz-ng[00m$ time ls
+[?2004lLICENSE   README.md  [0m[01;34mconfig[0m  [01;32mfmake[0m  [01;32mfwmod_custom[0m  [01;34minclude[0m  [01;34mpatches[0m  [01;34mtoolchain[0m  typescript
+Makefile  [01;34maddon[0m      [01;34mdocs[0m    [01;32mfwmod[0m  [01;34mgraphics[0m      [01;34mmake[0m     [01;34mtest[0m     [01;34mtools[0m
+
+real	0m0.004s
+user	0m0.004s
+sys	0m0.000s
+[?2004h(base) ]0;svensson@ubuntu: ~/freetz-ng[01;32msvensson@ubuntu[00m:[01;34m~/freetz-ng[00m$ time sleep 200[K[K
+[?2004l
+real	0m2.003s
+user	0m0.000s
+sys	0m0.002s
+[?2004h(base) ]0;svensson@ubuntu: ~/freetz-ng[01;32msvensson@ubuntu[00m:[01;34m~/freetz-ng[00m$ test[K[K[K[Kcd test
+[?2004l[?2004h(base) ]0;svensson@ubuntu: ~/freetz-ng/test[01;32msvensson@ubuntu[00m:[01;34m~/freetz-ng/test[00m$ ./test_runner 
+[?2004l[34;1mbase_test_fixture.bats
+[0m[1G   __git_root_dir() can ben run successfully[K[108G1/9 in 0 sec[2G[1G ✓ __git_root_dir() can ben run successfully in 76ms[32;22m [76][K
+[0m[1G   __git_root_dir() is expected to non-empty output[K[108G2/9 in 0 sec[2G[1G ✓ __git_root_dir() is expected to non-empty output in 80ms[32;22m [80][K
+[0m[1G   __git_root_dir() is expected to return */freetz-ng[K[108G3/9 in 0 sec[2G[1G ✓ __git_root_dir() is expected to return */freetz-ng in 81ms[32;22m [81][K
+[0m[1G   __git_root_dir() refutes to return *smells/like/teen/spirit[K[108G4/9 in 0 sec[2G[1G ✓ __git_root_dir() refutes to return *smells/like/teen/spirit in 84ms[32;22m [84][K
+[0m[1G   __git_root_dir() should fail if invoked out of scope (repository)[K[108G5/9 in 0 sec[2G[1G ✓ __git_root_dir() should fail if invoked out of scope (repository) in 85ms[32;22m [85][K
+[0m[1G   __git_root_dir() should return access prohibited[K[108G6/9 in 0 sec[2G[1G ✓ __git_root_dir() should return access prohibited in 83ms[32;22m [83][K
+[0m[34;1mtemplate_test.bats
+[0m[1G   example1: i'm gonna return successfully[K[108G7/9 in 0 sec[2G[1G ✓ example1: i'm gonna retu

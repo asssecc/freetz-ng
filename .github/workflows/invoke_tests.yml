@@ -23,6 +23,5 @@ jobs:
           TERM: linux # fix tput for tty issue work around
         run: |
           cd test
-          pwd
           bash --version
           bash -c "time ${{ matrix.env_vars }} ./test_runner"
