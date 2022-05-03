@@ -77,9 +77,7 @@ series (similar in construction) and transfer it to the device. A variety of ext
 	<br>
 	<figcaption><b>Figure 1</b>: Freetz configuration dialog from <i>make menuconfig</i> (Source: Zaugg S., 2022)</figcaption>
 </figure>
-
-<br><br>
-
+  
 **Flash firmware**
 ```
   # make push-firmware
@@ -90,6 +88,11 @@ series (similar in construction) and transfer it to the device. A variety of ext
 
 Modded firmware contains an customized web interface on `http port 81`:  
 
+**default acceess**  
+site: [http://fritz.box:81/](http://fritz.box:81/)  
+user: admin  
+pw: freetz
+
 <figure>
 	<a href="docs/screenshots/281.png">   
 		<img id="freetz-web-interface" loading="lazy" src="docs/screenshots/281_md.png" alt="Freetz - Web Interface" width="447" height="333">
@@ -97,9 +100,7 @@ Modded firmware contains an customized web interface on `http port 81`:
 	<br>
 	<figcaption><b>Figure 2</b>: Freetz Web Interface on http port 81 (Source: Zaugg S., 2022)</figcaption>
 </figure>
-
-<br><br>
-
+  
 Note: The original web interface is still accessible on `http port 80`
 
 ### Developer Documentation
