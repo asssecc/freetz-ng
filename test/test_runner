@@ -6,7 +6,7 @@
 #
 # for more infos about bats, see https://bats-core.readthedocs.io/
 
-# FIXME SZA: library bats-core needs to be enhanced for excluding files (WIP)
+# @FUTURE #1 SZA: library bats-core needs to be enhanced for excluding files (WIP)
 declare -a EXCLUDE_TEST_FILES=( 
     template_test.bats
 )
@@ -14,4 +14,8 @@ declare -a EXCLUDE_TEST_FILES=(
 # invokes bats utility. tests under following directories are run:
 #   /bats
 #   /tools
-bats/modules/bats-core/bin/bats -T --print-output-on-failure --formatter pretty bats tools
+# bats/modules/bats-core/bin/bats -T --print-output-on-failure --formatter pretty bats tools
+
+# #FUTURE #2 SZA: workaround because of @FUTURE #1
+# calling tests directly so that bats/template_test.bats is excluded from running
+bats/modules/bats-core/bin/bats -T --print-output-on-failure --formatter pretty bats/base_test_fixture.bats tools/push_firmware.bats
