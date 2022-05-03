@@ -1,15 +1,15 @@
-[submodule "tools/bats/bats-core"]
+[submodule "bats-core"]
 	path = test/bats/modules/bats-core
 	url = https://github.com/bats-core/bats-core.git
-[submodule "tools/bats/bats-support"]
+[submodule "bats-support"]
 	path = test/bats/modules/bats-support
 	url = https://github.com/bats-core/bats-support.git
-[submodule "tools/bats/bats-assert"]
+[submodule "bats-assert"]
 	path = test/bats/modules/bats-assert
 	url = https://github.com/bats-core/bats-assert.git
-[submodule "tools/bats/bats-file"]
+[submodule "bats-file"]
 	path = test/bats/modules/bats-file
 	url = https://github.com/bats-core/bats-file.git
-[submodule "tools/bats/bats-mock"]
+[submodule "bats-mock"]
 	path = test/bats/modules/bats-mock
 	url = https://github.com/grayhemp/bats-mock.git
