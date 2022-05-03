@@ -1,18 +1,20 @@
+#  author : sven zaugg
+#    file : invoke_tests.yml
+# purpose : github workflow for invoking freetz-ng test suite, i.e. /test/test_runner
+
 name: invoke_tests
 
-# Controls when the action will run. 
 on: [push, pull_request, workflow_dispatch]
 
 jobs:
- linux:
+  linux:
     strategy:
       matrix:
-        os: ['ubuntu-20.04', 'ubuntu-18.04']
+        os: ['ubuntu-18.04', 'ubuntu-20.04', 'ubuntu-latest']
         env_vars:
-          - ''
           # allow for some parallelity without GNU parallel, since it is not installed by default
           # BATS_NO_PARALLELIZE_ACROSS_FILES=1
-          - 'BATS_NUMBER_OF_PARALLEL_JOBS=10'
+          - 'BATS_NUMBER_OF_PARALLEL_JOBS=2'
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v3
@@ -25,4 +27,4 @@ jobs:
         run: |
           cd test
           bash --version
-          bash -c "time ${{ matrix.env_vars }} ./test_runner"
+          bash -c "time ${{ matrix.env_vars }} ./test_runner"    
