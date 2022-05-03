@@ -11,6 +11,7 @@ Freetz-NG firmware modification for ​AVM devices like FRITZ!
 >  **More features - less bugs!**
 
 [![stable-release-shields.io-url][stable-release-shields.io-url]][stable-release-github-url] 
+[![bats-cicd-shields.io-url][bats-cicd-shields.io-url]][bats-cicd-github-url] 
 [![bats-core-shields.io-url][bats-core-shields.io-url]][bats-core-github-url] 
 [![github-page-shields.io-url][github-page-shields.io-url]][github-page-github.io-url] 
 [![gloc-shields.io-url][gloc-shields.io-url]][gloc-github-url] 
@@ -18,6 +19,8 @@ Freetz-NG firmware modification for ​AVM devices like FRITZ!
 
 [stable-release-shields.io-url]: https://img.shields.io/github/v/tag/Freetz-NG/freetz-ng.svg?logo=github&color=brightgreen&label=release
 [stable-release-github-url]: https://github.com/Freetz-NG/freetz-ng/releases/tag/ng22040
+[bats-cicd-shields.io-url]: https://img.shields.io/github/workflow/status/Freetz-NG/freetz-ng/invoke_tests?label=tests&logo=github
+[bats-cicd-github-url]: https://github.com/Freetz-NG/freetz-ng/actions/workflows/invoke_tests.yml
 [bats-core-shields.io-url]: https://img.shields.io/github/v/release/bats-core/bats-core.svg?color=blue&label=bats-core
 [bats-core-github-url]: https://github.com/bats-core/bats-core/releases/tag/v1.6.0
 [github-page-shields.io-url]: https://img.shields.io/badge/doc-freetz--ng.github.io-blue
