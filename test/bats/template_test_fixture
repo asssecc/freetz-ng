@@ -2,11 +2,9 @@
 
 #  author : sven zaugg
 #    file : template_test_fixture
-# purpose : template for creting a test_fixture with bats
-
-# adapt path for matching the enviornment accordingly
-source $(dirname $BATS_TEST_FILENAME)/base_test_fixture
+# purpose : template for creating a test_fixture with bats
 
 _base_setup() {
-	__base_setup
+	load base_test_fixture
+	__base_setup test/bats
 }

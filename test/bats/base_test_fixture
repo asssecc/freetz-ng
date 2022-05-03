@@ -2,44 +2,42 @@
 
 #  author : sven zaugg
 #    file : base_test_fixture
-# purpose : loads bats submodules and serves as base test fixture to be sourced
+# purpose : setup/configure testing framework bats. serves as base test fixture to be loaded.
+#           see /test/bats/template_test_fixture, which shows how to use this fixture.
 #
 # for more infos about bats, see https://bats-core.readthedocs.io/
 
+# arguments:
+# 	BASH_SCRIPTS_PATH	path which contains productive bash scripts to test.
+#                       path is given relative to /freetz-ng project's root.
 __base_setup() {
-	local PROJECT_ROOT=$(__git_root_dir)
-	local BATS_ROOT=$PROJECT_ROOT/test/bats/modules
+	[ -z $1 ] && { echo "missing argument BASH_SCRIPTS_PATH. abort."; return 1; }
+
+	local BASH_SCRIPTS_PATH=$1
+	local FREETZ_PROJECT_ROOT=$(__git_root_dir)
+	local BATS_MODULES_ROOT=$FREETZ_PROJECT_ROOT/test/bats/modules
 
 	# load all external bats modules
-	load $BATS_ROOT/bats-support/load
-	load $BATS_ROOT/bats-assert/load 
-	load $BATS_ROOT/bats-file/load
-	load $BATS_ROOT/bats-mock/load
+	# note: bats internal method "load" delegates to bash's source command after resolving paths
+	load $BATS_MODULES_ROOT/bats-support/load
+	load $BATS_MODULES_ROOT/bats-assert/load 
+	load $BATS_MODULES_ROOT/bats-file/load
+	load $BATS_MODULES_ROOT/bats-mock/load
 
-    # set PATH to project's root for exposing testing environment, so that
-	# - this test-fixture can be reached everywhere
-	# - bats test files can access every shell script for testing
-	# note: this PATH is only applied in a sandbox manner during bats execution
-   	PATH=$PROJECT_ROOT:$PATH 
+    # expand PATH to current running bash scripts under test.
+	# note: this PATH is only applied in a sandbox manner during bats/test execution time.
+	PATH=${FREETZ_PROJECT_ROOT}/${BASH_SCRIPTS_PATH}:$PATH
 }
 
 # return git repository's root path 
-# implementation can handle git submodules
 __git_root_dir() {
-	rootDir="$(git rev-parse --show-toplevel 2>/dev/null)"
+	rootDir=$(git rev-parse --show-toplevel 2>/dev/null)
 
 	if [ $? -gt 0 ]; then
 		>&2 echo 'access prohibited! you are outside of freetz repository. bats tests are meant to run in a sandbox manner. sorry dude!'
 		exit 1
 	fi
 
-	_pwd=$(pwd)
-	if [ $_pwd = $rootDir ]; then
-		# if parent directory is also managed under git then we are in a submodule.
-		rootDir="$(git -C $(dirname $_pwd) rev-parse --show-toplevel 2>/dev/null)"
-		echo $rootDir
-		return 0
-	fi
-
 	echo $rootDir
+	return 0
 }

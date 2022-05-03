@@ -1,18 +1,15 @@
 #!/usr/bin/env bats
 
 #  author : sven zaugg
-#    file : /test/bats/base_test_fixture.bats
+#    file : base_test_fixture.bats
 # purpose : unit tests for bash script /test/bats/base_test_fixture
 
 WORKING_DIRECTORY=___smells/like/teen/spirit
 
 # pre-test hook: gets invoked BEFORE EACH annotated @test method
 setup() {
-	load 'base_test_fixture'
-	__base_setup
-
-	# bash script under test:
-	source base_test_fixture
+	load base_test_fixture
+	__base_setup test/bats
 }
 
 # post-test hook: gets invoked AFTER EACH annotated @test method
@@ -32,7 +29,7 @@ teardown_file() {
 }
 
 @test '__git_root_dir() can ben run successfully' {
-	run -0	true # exit code 0 expected
+	run -0 __git_root_dir # expect exit code=0
 }
 
 @test '__git_root_dir() is expected to non-empty output' {

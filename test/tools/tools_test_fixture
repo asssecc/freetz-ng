@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+#  author : sven zaugg
+#    file : tools_test_fixture
+# purpose : test fixture for bash scripts under /tools
+
+_base_setup() {
+	load ../bats/base_test_fixture
+	__base_setup tools
+}
