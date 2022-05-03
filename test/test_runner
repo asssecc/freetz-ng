@@ -16,7 +16,7 @@ declare -a EXCLUDE_TEST_FILES=(
 #   TEST_DIR  directory which contains bats tests
 invoke_bats() {
     [ -z $1 ] && { echo "missing argument TEST_DIR. abort."; return 1; }
-    bats/modules/bats-core/bin/bats -T --print-output-on-failure --verbose-run $1
+    bats/modules/bats-core/bin/bats -T --print-output-on-failure --formatter tap $1
 }
 
 invoke_bats bats
