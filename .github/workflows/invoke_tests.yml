@@ -24,4 +24,4 @@ jobs:
         run: |
           cd /test
           bash --version
-          bash -c "time ${{ matrix.env_vars }} ./test_runner"
+          bash -c "time ${{ matrix.env_vars }} test_runner"
