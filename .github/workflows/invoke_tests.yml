@@ -22,5 +22,20 @@ jobs:
         env:
           TERM: linux # fix tput for tty issue work around
         run: |
+          cd /test
           bash --version
-          bash -c "time ${{ matrix.env_vars }} test/test_runner"
+          bash -c "time ${{ matrix.env_vars }} ./test_runner"
+
+  steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          registry-url: https://registry.npmjs.org/
+      - run: npm ci
+      - run: npm install -g npm@6
+      - run: npm cache clean --force
+      - run: npm login --registry=https://registry.npmjs.org
+      - run: npm publish --access public --registry=https://registry.npmjs.org
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
