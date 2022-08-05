@@ -77,15 +77,16 @@ Content: [FOS-Release](#fos-release) - [FOS-Labor](#fos-labor) - [FOS-Inhaus](#f
  - HWR 276: [FRITZ.Box_7520_B-07.31.image](https://download.avm.de/fritzbox/fritzbox-7520-B/deutschland/fritz.os/FRITZ.Box_7520_B-07.31.image)
 
 ### FOS-Labor
- - HWR 226: [FRITZ.Box_7590-07.39-98713-LabBETA.image](http://download.avm.de/labor/MOVE21/7590/FRITZ.Box_7590-07.39-98713-LabBETA.image)
- - HWR 233: [FRITZ.Box_6591_Cable-07.39-98299-LabBETA.image](http://download.avm.de/labor/MOVE21/6591Cable/FRITZ.Box_6591_Cable-07.39-98299-LabBETA.image)
+ - HWR 226: [FRITZ.Box_7590-07.39-98869-LabBETA.image](http://download.avm.de/labor/MOVE21/7590/FRITZ.Box_7590-07.39-98869-LabBETA.image)
+ - HWR 233: [FRITZ.Box_6591_Cable-07.39-98874-LabBETA.image](http://download.avm.de/labor/MOVE21/6591Cable/FRITZ.Box_6591_Cable-07.39-98874-LabBETA.image)
  - HWR 234: [FRITZ.Box_6890_LTE-07.39-98285-LabBETA.image](http://download.avm.de/labor/MOVE21/6890LTE/FRITZ.Box_6890_LTE-07.39-98285-LabBETA.image)
- - HWR 236: [FRITZ.Box_7530-07.39-98714-LabBETA.image](http://download.avm.de/labor/MOVE21/7530/FRITZ.Box_7530-07.39-98714-LabBETA.image)
- - HWR 241: [FRITZ.Repeater_2400-07.39-98310-LabBETA.image](http://download.avm.de/labor/MOVE21/2400/FRITZ.Repeater_2400-07.39-98310-LabBETA.image)
- - HWR 252: [FRITZ.Box_6660_Cable-07.39-98300-LabBETA.image](http://download.avm.de/labor/MOVE21/6660Cable/FRITZ.Box_6660_Cable-07.39-98300-LabBETA.image)
- - HWR 259: [FRITZ.Box_7590_AX-07.39-98715-LabBETA.image](http://download.avm.de/labor/MOVE21/7590AX/FRITZ.Box_7590_AX-07.39-98715-LabBETA.image)
+ - HWR 236: [FRITZ.Box_7530-07.39-98873-LabBETA.image](http://download.avm.de/labor/MOVE21/7530/FRITZ.Box_7530-07.39-98873-LabBETA.image)
+ - HWR 241: [FRITZ.Repeater_2400-07.39-98871-LabBETA.image](http://download.avm.de/labor/MOVE21/2400/FRITZ.Repeater_2400-07.39-98871-LabBETA.image)
+ - HWR 246: [FRITZ.Repeater_3000-07.39-98870-LabBETA.image](http://download.avm.de/labor/MOVE21/3000/FRITZ.Repeater_3000-07.39-98870-LabBETA.image)
+ - HWR 252: [FRITZ.Box_6660_Cable-07.39-98875-LabBETA.image](http://download.avm.de/labor/MOVE21/6660Cable/FRITZ.Box_6660_Cable-07.39-98875-LabBETA.image)
+ - HWR 259: [FRITZ.Box_7590_AX-07.39-98872-LabBETA.image](http://download.avm.de/labor/MOVE21/7590AX/FRITZ.Box_7590_AX-07.39-98872-LabBETA.image)
  - HWR 262: [FRITZ.Box_6850_LTE-07.39-98393-LabBETA.image](http://download.avm.de/labor/MOVE21/6850LTE/FRITZ.Box_6850_LTE-07.39-98393-LabBETA.image)
- - HWR 267: [FRITZ.Box_6690_Cable-07.39-98304-LabBETA.image](http://download.avm.de/labor/MOVE21/6690Cable/FRITZ.Box_6690_Cable-07.39-98304-LabBETA.image)
+ - HWR 267: [FRITZ.Box_6690_Cable-07.39-98876-LabBETA.image](http://download.avm.de/labor/MOVE21/6690Cable/FRITZ.Box_6690_Cable-07.39-98876-LabBETA.image)
 
 ### FOS-Inhaus
  - HWR 226: [FRITZ.Box_7590-07.39-98822-Inhaus.image](http://download.avm.de/inhaus/MOVE21/7590/FRITZ.Box_7590-07.39-98822-Inhaus.image)
@@ -93,7 +94,7 @@ Content: [FOS-Release](#fos-release) - [FOS-Labor](#fos-labor) - [FOS-Inhaus](#f
  - HWR 236: [FRITZ.Box_7530-07.39-98834-Inhaus.image](http://download.avm.de/inhaus/MOVE21/7530/FRITZ.Box_7530-07.39-98834-Inhaus.image)
  - HWR 241: [FRITZ.Repeater_2400-07.39-98775-Inhaus.image](http://download.avm.de/inhaus/MOVE21/2400/FRITZ.Repeater_2400-07.39-98775-Inhaus.image)
  - HWR 246: [FRITZ.Repeater_3000-07.39-98777-Inhaus.image](http://download.avm.de/inhaus/MOVE21/3000/FRITZ.Repeater_3000-07.39-98777-Inhaus.image)
- - HWR 256: [FRITZ.Box_7530_AX-07.39-98518-Inhaus.image](http://download.avm.de/inhaus/MOVE21/7530AX/FRITZ.Box_7530_AX-07.39-98518-Inhaus.image)
+ - HWR 256: [FRITZ.Box_7530_AX-07.39-98836-Inhaus.image](http://download.avm.de/inhaus/MOVE21/7530AX/FRITZ.Box_7530_AX-07.39-98836-Inhaus.image)
  - HWR 258: [FRITZ.Box_6850_5G-07.39-98260-Inhaus.image](http://download.avm.de/inhaus/MOVE21/68505G/FRITZ.Box_6850_5G-07.39-98260-Inhaus.image)
  - HWR 259: [FRITZ.Box_7590_AX-07.39-98824-Inhaus.image](http://download.avm.de/inhaus/MOVE21/7590AX/FRITZ.Box_7590_AX-07.39-98824-Inhaus.image)
  - HWR 261: [FRITZ.Box_4060-07.39-98188-Inhaus.image](http://download.avm.de/inhaus/MOVE21/4060/FRITZ.Box_4060-07.39-98188-Inhaus.image)
