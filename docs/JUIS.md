@@ -44,7 +44,7 @@ Content: [FOS-Release](#fos-release) - [FOS-Labor](#fos-labor) - [FOS-Inhaus](#f
  - HWR 222: [FRITZ.Powerline_1240E.150.07.15.image](http://download.avm.de/fritzpowerline/fritzpowerline-1240e/deutschland/fritz.os/FRITZ.Powerline_1240E.150.07.15.image)
  - HWR 223: [FRITZ.Box_5490-07.29.image](http://ftp.avm.de/fritzbox/fritzbox-5490/other/fritz.os/FRITZ.Box_5490-07.29.image)
  - HWR 225: [FRITZ.Box_7580-07.29.image](http://download.avm.de/fritzbox/fritzbox-7580/deutschland/fritz.os/FRITZ.Box_7580-07.29.image)
- - HWR 226: [FRITZ.Box_7590-07.50.image](http://download.avm.de/fritzbox/fritzbox-7590/deutschland/fritz.os/FRITZ.Box_7590-07.50.image)
+ - HWR 226: [FRITZ.Box_7590-07.12.image](http://download.avm.de/firmware/7590/jz76373/7472573230/deutschland/fritz.os/FRITZ.Box_7590-07.12.image)
  - HWR 227: [FRITZ.Box_4040-07.29.image](http://download.avm.de/fritzbox/fritzbox-4040/deutschland/fritz.os/FRITZ.Box_4040-07.29.image)
  - HWR 229: [FRITZ.Powerline_1260E.157.07.29.image](http://download.avm.de/fritzpowerline/fritzpowerline-1260e/deutschland/fritz.os/FRITZ.Powerline_1260E.157.07.29.image)
  - HWR 231: [FRITZ.Box_6430_Cable-07.29.image](http://download.avm.de/fritzbox/fritzbox-6430-cable/deutschland/fritz.os/FRITZ.Box_6430_Cable-07.29.image)
@@ -69,7 +69,6 @@ Content: [FOS-Release](#fos-release) - [FOS-Labor](#fos-labor) - [FOS-Inhaus](#f
  - HWR 261: [FRITZ.Box_4060-07.30.image](http://download.avm.de/fritzbox/fritzbox-4060/other/fritz.os/FRITZ.Box_4060-07.30.image)
  - HWR 262: [FRITZ.Box_6850_LTE-07.29.image](http://download.avm.de/fritzbox/fritzbox-6850-lte/deutschland/fritz.os/FRITZ.Box_6850_LTE-07.29.image)
  - HWR 263: [FRITZ.Repeater_600v2-07.30.image](http://download.avm.de/fritzwlan/fritzrepeater-600v2/deutschland/fritz.os/FRITZ.Repeater_600v2-07.30.image)
- - HWR 263: [FRITZ.Repeater_600v2-07.27-89576-Release.image](http://download.avm.de/testfeld/600v2/FRITZ.Repeater_600v2-07.27-89576-Release.image)
  - HWR 267: [FRITZ.Box_6690_Cable-07.50.image](http://download.avm.de/fritzbox/fritzbox-6690-cable/deutschland/fritz.os/FRITZ.Box_6690_Cable-07.50.image)
  - HWR 267: [FRITZ.Box_6690_Cable-07.29-92355-Release.image](http://download.avm.de/testfeld/6690/FRITZ.Box_6690_Cable-07.29-92355-Release.image)
  - HWR 268: [FRITZ.Repeater_1200_AX-07.30.image](http://download.avm.de/fritzwlan/fritzrepeater-1200-ax/deutschland/fritz.os/FRITZ.Repeater_1200_AX-07.30.image)
@@ -79,8 +78,9 @@ Content: [FOS-Release](#fos-release) - [FOS-Labor](#fos-labor) - [FOS-Inhaus](#f
  - HWR 276: [FRITZ.Box_7520_B-07.50.image](http://download.avm.de/fritzbox/fritzbox-7520-B/deutschland/fritz.os/FRITZ.Box_7520_B-07.50.image)
 
 ### FOS-Labor
- - HWR 213: [FRITZ.Box_6490_Cable-07.39-101859-LabBETA.image](http://download.avm.de/labor/MOVE21/6490Cable/FRITZ.Box_6490_Cable-07.39-101859-LabBETA.image)
- - HWR 220: [FRITZ.Box_6590_Cable-07.39-101861-LabBETA.image](http://download.avm.de/labor/MOVE21/6590Cable/FRITZ.Box_6590_Cable-07.39-101861-LabBETA.image)
+ - HWR 213: [FRITZ.Box_6490_Cable-07.51-103497-LabBETA.image](http://download.avm.de/labor/MOVE21NL1/6490Cable/FRITZ.Box_6490_Cable-07.51-103497-LabBETA.image)
+ - HWR 220: [FRITZ.Box_6590_Cable-07.51-103499-LabBETA.image](http://download.avm.de/labor/MOVE21NL1/6590Cable/FRITZ.Box_6590_Cable-07.51-103499-LabBETA.image)
+ - HWR 226: [FRITZ.Box_7590-07.50.image](http://download.avm.de/fritzbox/fritzbox-7590/deutschland/fritz.os/FRITZ.Box_7590-07.50.image)
  - HWR 227: [FRITZ.Box_4040-07.51-103577-LabBETA.image](http://download.avm.de/labor/MOVE21NL1/4040/FRITZ.Box_4040-07.51-103577-LabBETA.image)
  - HWR 234: [FRITZ.Box_6890_LTE-07.39-101643-LabBETA.image](http://download.avm.de/labor/MOVE21/6890LTE/FRITZ.Box_6890_LTE-07.39-101643-LabBETA.image)
  - HWR 239: [FRITZ.Box_7583-07.39-103075-LabBETA.image](http://download.avm.de/labor/MOVE21/7583/FRITZ.Box_7583-07.39-103075-LabBETA.image)
@@ -165,4 +165,4 @@ Content: [FOS-Release](#fos-release) - [FOS-Labor](#fos-labor) - [FOS-Inhaus](#f
 ### Dect-Inhaus
 
 ### BPjM
- - CRC baa3de87: [bpjm_20230127_bpjm-modul_02_23.txt.data](http://download.avm.de/bpjm/219976/bpjm_20230127_bpjm-modul_02_23.txt.data)
+ - CRC 8cc0aa3b: [bpjm_20230228_bpjm-modul_03_23.txt.data](http://download.avm.de/bpjm/219811/bpjm_20230228_bpjm-modul_03_23.txt.data)
