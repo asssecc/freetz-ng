@@ -80,6 +80,7 @@ Content: [FOS-Release](#fos-release) - [FOS-Labor](#fos-labor) - [FOS-Inhaus](#f
 ### FOS-Labor
  - HWR 213: [FRITZ.Box_6490_Cable-07.51-103497-LabBETA.image](http://download.avm.de/labor/MOVE21NL1/6490Cable/FRITZ.Box_6490_Cable-07.51-103497-LabBETA.image)
  - HWR 220: [FRITZ.Box_6590_Cable-07.51-103499-LabBETA.image](http://download.avm.de/labor/MOVE21NL1/6590Cable/FRITZ.Box_6590_Cable-07.51-103499-LabBETA.image)
+ - HWR 226: [FRITZ.Box_7590-07.50.image](http://download.avm.de/fritzbox/fritzbox-7590/deutschland/fritz.os/FRITZ.Box_7590-07.50.image)
  - HWR 227: [FRITZ.Box_4040-07.51-103577-LabBETA.image](http://download.avm.de/labor/MOVE21NL1/4040/FRITZ.Box_4040-07.51-103577-LabBETA.image)
  - HWR 234: [FRITZ.Box_6890_LTE-07.51-103467-LabBETA.image](http://download.avm.de/labor/MOVE21NL1/6890LTE/FRITZ.Box_6890_LTE-07.51-103467-LabBETA.image)
  - HWR 239: [FRITZ.Box_7583-07.39-103075-LabBETA.image](http://download.avm.de/labor/MOVE21/7583/FRITZ.Box_7583-07.39-103075-LabBETA.image)
