@@ -61,9 +61,9 @@ Content: [FOS-Release](#fos-release) - [FOS-Labor](#fos-labor) - [FOS-Inhaus](#f
  - HWR 247: [FRITZ.Box_7520-07.50.image](http://download.avm.de/fritzbox/fritzbox-7520/deutschland/fritz.os/FRITZ.Box_7520-07.50.image)
  - HWR 249: [FRITZ.Powerline_1260.249.07.50.image](http://download.avm.de/fritzpowerline/fritzpowerline-1260/deutschland/fritz.os/FRITZ.Powerline_1260.249.07.50.image)
  - HWR 252: [FRITZ.Box_6660_Cable-07.50.image](http://download.avm.de/fritzbox/fritzbox-6660-cable/deutschland/fritz.os/FRITZ.Box_6660_Cable-07.50.image)
- - HWR 253: [FRITZ.Repeater_6000-07.30.image](http://download.avm.de/fritzwlan/fritzrepeater-6000/deutschland/fritz.os/FRITZ.Repeater_6000-07.30.image)
  - HWR 254: [FRITZ.Box_6820v3_LTE-07.29.image](http://download.avm.de/fritzbox/fritzbox-6820-lte-v3/deutschland/fritz.os/FRITZ.Box_6820v3_LTE-07.29.image)
  - HWR 256: [FRITZ.Box_7530_AX-07.31.image](http://download.avm.de/fritzbox/fritzbox-7530-ax/deutschland/fritz.os/FRITZ.Box_7530_AX-07.31.image)
+ - HWR 257: [FRITZ.Box_5530-07.50.image](http://download.avm.de/fritzbox/fritzbox-5530-fiber/deutschland/fritz.os/FRITZ.Box_5530-07.50.image)
  - HWR 258: [FRITZ.Box_6850_5G-07.30.image](http://download.avm.de/fritzbox/fritzbox-6850-5g/deutschland/fritz.os/FRITZ.Box_6850_5G-07.30.image)
  - HWR 259: [FRITZ.Box_7590_AX-07.50.image](http://download.avm.de/fritzbox/fritzbox-7590-ax/deutschland/fritz.os/FRITZ.Box_7590_AX-07.50.image)
  - HWR 260: [FRITZ.Box_7583_VDSL-07.50.image](http://download.avm.de/fritzbox/fritzbox-7583-vdsl/deutschland/fritz.os/FRITZ.Box_7583_VDSL-07.50.image)
@@ -76,7 +76,6 @@ Content: [FOS-Release](#fos-release) - [FOS-Labor](#fos-labor) - [FOS-Inhaus](#f
  - HWR 268: [FRITZ.Repeater_1200_AX-07.30.image](http://download.avm.de/fritzwlan/fritzrepeater-1200-ax/deutschland/fritz.os/FRITZ.Repeater_1200_AX-07.30.image)
  - HWR 270: [FRITZ.Repeater_3000_AX-07.41-Release.image](https://download.avm.de/fritzwlan/fritzrepeater-3000-ax/deutschland/fritz.os/FRITZ.Repeater_3000_AX-07.41-Release.image)
  - HWR 271: [FRITZ.Box_7510-07.50.image](http://download.avm.de/fritzbox/fritzbox-7510/deutschland/fritz.os/FRITZ.Box_7510-07.50.image)
- - HWR 272: [FRITZ.Box_5590_Fiber-07.50.image](http://download.avm.de/fritzbox/fritzbox-5590-fiber/deutschland/fritz.os/FRITZ.Box_5590_Fiber-07.50.image)
  - HWR 276: [FRITZ.Box_7520_B-07.50.image](http://download.avm.de/fritzbox/fritzbox-7520-B/deutschland/fritz.os/FRITZ.Box_7520_B-07.50.image)
 
 ### FOS-Labor
@@ -89,7 +88,6 @@ Content: [FOS-Release](#fos-release) - [FOS-Labor](#fos-labor) - [FOS-Inhaus](#f
  - HWR 236: [FRITZ.Box_7530-07.51-104920-LabBETA.image](http://download.avm.de/labor/MOVE21NL1/7530/FRITZ.Box_7530-07.51-104920-LabBETA.image)
  - HWR 239: [FRITZ.Box_7583-07.39-103075-LabBETA.image](http://download.avm.de/labor/MOVE21/7583/FRITZ.Box_7583-07.39-103075-LabBETA.image)
  - HWR 247: [FRITZ.Box_7520-07.51-104946-LabBETA.image](http://download.avm.de/labor/MOVE21NL1/7520/FRITZ.Box_7520-07.51-104946-LabBETA.image)
- - HWR 252: [FRITZ.Box_6660_Cable-07.51-104538-LabBETA.image](http://download.avm.de/labor/MOVE21NL1/6660Cable/FRITZ.Box_6660_Cable-07.51-104538-LabBETA.image)
  - HWR 253: [FRITZ.Repeater_6000-07.39-104705-LabBETA.image](http://download.avm.de/labor/MOVE21/6000/FRITZ.Repeater_6000-07.39-104705-LabBETA.image)
  - HWR 254: [FRITZ.Box_6820v3_LTE-07.51-103464-LabBETA.image](http://download.avm.de/labor/MOVE21NL1/6820v3LTE/FRITZ.Box_6820v3_LTE-07.51-103464-LabBETA.image)
  - HWR 256: [FRITZ.Box_7530_AX-07.51-104973-LabBETA.image](http://download.avm.de/labor/MOVE21NL1/7530AX/FRITZ.Box_7530_AX-07.51-104973-LabBETA.image)
@@ -122,7 +120,7 @@ Content: [FOS-Release](#fos-release) - [FOS-Labor](#fos-labor) - [FOS-Inhaus](#f
  - HWR 253: [FRITZ.Repeater_6000-07.39-104768-Inhaus.image](http://download.avm.de/inhaus/MOVE21/6000/FRITZ.Repeater_6000-07.39-104768-Inhaus.image)
  - HWR 254: [FRITZ.Box_6820v3_LTE-07.51-104828-Inhaus.image](http://download.avm.de/inhaus/MOVE21NL1/6820v3LTE/FRITZ.Box_6820v3_LTE-07.51-104828-Inhaus.image)
  - HWR 256: [FRITZ.Box_7530_AX-07.51-104971-Inhaus.image](http://download.avm.de/inhaus/MOVE21NL1/7530AX/FRITZ.Box_7530_AX-07.51-104971-Inhaus.image)
- - HWR 257: [FRITZ.Box_5530_Fiber-07.39-104223-Inhaus.image](http://download.avm.de/inhaus/MOVE21/5530Fiber/FRITZ.Box_5530_Fiber-07.39-104223-Inhaus.image)
+ - HWR 257: [FRITZ.Box_5530_Fiber-07.51-105006-Inhaus.image](http://download.avm.de/inhaus/MOVE21NL1/5530Fiber/FRITZ.Box_5530_Fiber-07.51-105006-Inhaus.image)
  - HWR 258: [FRITZ.Box_6850_5G-07.51-104830-Inhaus.image](http://download.avm.de/inhaus/MOVE21NL1/68505G/FRITZ.Box_6850_5G-07.51-104830-Inhaus.image)
  - HWR 259: [FRITZ.Box_7590_AX-07.51-105044-Inhaus.image](http://download.avm.de/inhaus/MOVE21NL1/7590AX/FRITZ.Box_7590_AX-07.51-105044-Inhaus.image)
  - HWR 260: [FRITZ.Box_7583_VDSL-07.39-103078-LabBETA.image](http://download.avm.de/labor/MOVE21/7583VDSL/FRITZ.Box_7583_VDSL-07.39-103078-LabBETA.image)
@@ -161,7 +159,7 @@ Content: [FOS-Release](#fos-release) - [FOS-Labor](#fos-labor) - [FOS-Inhaus](#f
 
 ### Dect-Labor
  - MHW 05.01: [05.01.04.88.avm.de.upd](http://download.avm.de/dect/0501/move21/05.01.04.88.avm.de.upd)
- - MHW 06.02: [06.02.05.30.avm.de.upd](http://download.avm.de/dect/0602/labor/06.02.05.30.avm.de.upd)
+ - MHW 06.02: [06.02.05.31.avm.de.upd](http://download.avm.de/dect/0602/labor/06.02.05.31.avm.de.upd)
  - MHW 06.04: [06.04.03.54.avm.de.upd](http://download.avm.de/dect/0604/p15/06.04.03.54.avm.de.upd)
  - MHW 07.02: [07.02.04.25.avm.de.upd](http://download.avm.de/dect/0702/move21/07.02.04.25.avm.de.upd)
  - MHW 07.03: [07.03.04.25.avm.de.upd](http://download.avm.de/dect/0703/move21/07.03.04.25.avm.de.upd)
