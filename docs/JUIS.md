@@ -94,13 +94,13 @@ Content: [FOS-Release](#fos-release) - [FOS-Labor](#fos-labor) - [FOS-Inhaus](#f
  - HWR 249: [FRITZ.Powerline_1260-07.51-107011-Inhaus.image](http://download.avm.de/inhaus/MOVE21NL1/1260/FRITZ.Powerline_1260-07.51-107011-Inhaus.image)
  - HWR 253: [FRITZ.Repeater_6000-07.51-106790-Inhaus.image](http://download.avm.de/inhaus/MOVE21NL1/6000/FRITZ.Repeater_6000-07.51-106790-Inhaus.image)
  - HWR 256: [FRITZ.Box_7530_AX-07.70-108382-Inhaus.image](http://download.avm.de/inhaus/GoFiber23/7530AX/FRITZ.Box_7530_AX-07.70-108382-Inhaus.image)
- - HWR 257: [FRITZ.Box_5530_Fiber-07.70-107943-Inhaus.image](http://download.avm.de/inhaus/GoFiber23/5530Fiber/FRITZ.Box_5530_Fiber-07.70-107943-Inhaus.image)
+ - HWR 257: [FRITZ.Box_5530_Fiber-07.70-108378-Inhaus.image](http://download.avm.de/inhaus/GoFiber23/5530Fiber/FRITZ.Box_5530_Fiber-07.70-108378-Inhaus.image)
  - HWR 259: [FRITZ.Box_7590_AX-07.70-108384-Inhaus.image](http://download.avm.de/inhaus/GoFiber23/7590AX/FRITZ.Box_7590_AX-07.70-108384-Inhaus.image)
  - HWR 260: [FRITZ.Box_7583_VDSL-07.39-103078-LabBETA.image](http://download.avm.de/labor/MOVE21/7583VDSL/FRITZ.Box_7583_VDSL-07.39-103078-LabBETA.image)
  - HWR 263: [FRITZ.Repeater_600v2-07.51-105600-Inhaus.image](http://download.avm.de/inhaus/MOVE21NL1/600v2/FRITZ.Repeater_600v2-07.51-105600-Inhaus.image)
  - HWR 268: [FRITZ.Repeater_1200_AX-07.51-106788-Inhaus.image](http://download.avm.de/inhaus/MOVE21NL1/1200AX/FRITZ.Repeater_1200_AX-07.51-106788-Inhaus.image)
  - HWR 270: [FRITZ.Repeater_3000_AX-07.51-106792-Inhaus.image](http://download.avm.de/inhaus/MOVE21NL1/3000AX/FRITZ.Repeater_3000_AX-07.51-106792-Inhaus.image)
- - HWR 272: [FRITZ.Box_5590_Fiber-07.70-107945-Inhaus.image](http://download.avm.de/inhaus/GoFiber23/5590Fiber/FRITZ.Box_5590_Fiber-07.70-107945-Inhaus.image)
+ - HWR 272: [FRITZ.Box_5590_Fiber-07.70-108380-Inhaus.image](http://download.avm.de/inhaus/GoFiber23/5590Fiber/FRITZ.Box_5590_Fiber-07.70-108380-Inhaus.image)
 
 ### Dect-Release
  - MHW 01.01: [01.01.02.92.avme.de.upd](http://download.avm.de/dect/0101/01.01.02.92.avme.de.upd)
@@ -123,7 +123,7 @@ Content: [FOS-Release](#fos-release) - [FOS-Labor](#fos-labor) - [FOS-Inhaus](#f
  - MHW 08.01: [08.01.04.67.avm.de.upd](http://download.avm.de/dect/0801/psq19p2/08.01.04.67.avm.de.upd)
  - MHW 08.02: [08.02.04.67.avm.de.upd](http://download.avm.de/dect/0802/psq19p2/08.02.04.67.avm.de.upd)
  - MHW 08.03: [08.03.04.67.avm.de.upd](http://download.avm.de/dect/0803/psq19p2/08.03.04.67.avm.de.upd)
- - MHW 08.04: [08.04.04.93.avm.de.upd](http://download.avm.de/dect/0804/move21/08.04.04.93.avm.de.upd)
+ - MHW 08.04: [08.04.04.94.avm.de.upd](http://download.avm.de/dect/0804/move21/08.04.04.94.avm.de.upd)
  - MHW 10.01: [34.10.16.16.015.avm.de.upd](http://download.avm.de/dect/1001/Release/34.10.16.16.015.avm.de.upd)
 
 ### Dect-Labor
@@ -134,7 +134,7 @@ Content: [FOS-Release](#fos-release) - [FOS-Labor](#fos-labor) - [FOS-Inhaus](#f
  - MHW 07.04: [07.04.04.25.avm.de.upd](http://download.avm.de/dect/0704/move21/07.04.04.25.avm.de.upd)
  - MHW 08.01: [08.01.04.93.avm.de.upd](http://download.avm.de/dect/0801/move21/08.01.04.93.avm.de.upd)
  - MHW 08.02: [08.02.04.93.avm.de.upd](http://download.avm.de/dect/0802/move21/08.02.04.93.avm.de.upd)
- - MHW 08.03: [08.03.04.93.avm.de.upd](http://download.avm.de/dect/0803/move21/08.03.04.93.avm.de.upd)
+ - MHW 08.03: [08.03.04.94.avm.de.upd](http://download.avm.de/dect/0803/move21/08.03.04.94.avm.de.upd)
 
 ### Dect-Inhaus
 
