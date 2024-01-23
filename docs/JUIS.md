@@ -48,7 +48,6 @@ Content: [FOS-Release](#fos-release) - [FOS-Labor](#fos-labor) - [FOS-Inhaus](#f
  - HWR 227: [FRITZ.Box_4040-07.57.image](http://download.avm.de/fritzbox/fritzbox-4040/deutschland/fritz.os/FRITZ.Box_4040-07.57.image)
  - HWR 228: [FRITZ.Box_7582-07.17.image](http://download.avm.de/fritzbox/fritzbox-7582/other/fritz.os/FRITZ.Box_7582-07.17.image)
  - HWR 229: [FRITZ.Powerline_1260E.157.07.57.image](http://download.avm.de/fritzpowerline/fritzpowerline-1260e/deutschland/fritz.os/FRITZ.Powerline_1260E.157.07.57.image)
- - HWR 231: [FRITZ.Box_6430_Cable-07.30.image](http://download.avm.de/fritzbox/fritzbox-6430-cable/deutschland/fritz.os/FRITZ.Box_6430_Cable-07.30.image)
  - HWR 233: [FRITZ.Box_6591_Cable-07.57.image](http://download.avm.de/fritzbox/fritzbox-6591-cable/deutschland/fritz.os/FRITZ.Box_6591_Cable-07.57.image)
  - HWR 234: [FRITZ.Box_6890_LTE-07.57.image](http://download.avm.de/fritzbox/fritzbox-6890-lte/deutschland/fritz.os/FRITZ.Box_6890_LTE-07.57.image)
  - HWR 236: [FRITZ.Box_7530-07.57.image](http://download.avm.de/fritzbox/fritzbox-7530/deutschland/fritz.os/FRITZ.Box_7530-07.57.image)
@@ -90,8 +89,8 @@ Content: [FOS-Release](#fos-release) - [FOS-Labor](#fos-labor) - [FOS-Inhaus](#f
  - HWR 213: [FRITZ.Box_6490_Cable-07.57.image](http://download.avm.de/fritzbox/fritzbox-6490-cable/deutschland/fritz.os/FRITZ.Box_6490_Cable-07.57.image)
  - HWR 256: [FRITZ.Box_7530_AX-07.70-110407-LabBETA.image](http://download.avm.de/labor/GoFiber23/7530AX/FRITZ.Box_7530_AX-07.70-110407-LabBETA.image)
  - HWR 257: [FRITZ.Box_5530_Fiber-07.70-110408-LabBETA.image](http://download.avm.de/labor/GoFiber23/5530Fiber/FRITZ.Box_5530_Fiber-07.70-110408-LabBETA.image)
+ - HWR 259: [FRITZ.Box_7590_AX-07.70-110409-LabBETA.image](http://download.avm.de/labor/GoFiber23/7590AX/FRITZ.Box_7590_AX-07.70-110409-LabBETA.image)
  - HWR 260: [FRITZ.Box_7583_VDSL-07.39-103078-LabBETA.image](http://download.avm.de/labor/MOVE21/7583VDSL/FRITZ.Box_7583_VDSL-07.39-103078-LabBETA.image)
- - HWR 267: [FRITZ.Box_6690_Cable-07.57.image](http://download.avm.de/fritzbox/fritzbox-6690-cable/deutschland/fritz.os/FRITZ.Box_6690_Cable-07.57.image)
  - HWR 272: [FRITZ.Box_5590_Fiber-07.70-110410-LabBETA.image](http://download.avm.de/labor/GoFiber23/5590Fiber/FRITZ.Box_5590_Fiber-07.70-110410-LabBETA.image)
 
 ### FOS-Inhaus
