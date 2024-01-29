@@ -92,7 +92,6 @@ Content: [FOS-Release](#fos-release) - [FOS-Labor](#fos-labor) - [FOS-Inhaus](#f
  - HWR 253: [FRITZ.Repeater_6000-07.57.image](http://download.avm.de/fritzwlan/fritzrepeater-6000/deutschland/fritz.os/FRITZ.Repeater_6000-07.57.image)
  - HWR 256: [FRITZ.Box_7530_AX-07.70-110407-LabBETA.image](http://download.avm.de/labor/GoFiber23/7530AX/FRITZ.Box_7530_AX-07.70-110407-LabBETA.image)
  - HWR 257: [FRITZ.Box_5530_Fiber-07.70-110408-LabBETA.image](http://download.avm.de/labor/GoFiber23/5530Fiber/FRITZ.Box_5530_Fiber-07.70-110408-LabBETA.image)
- - HWR 259: [FRITZ.Box_7590_AX-07.70-110409-LabBETA.image](http://download.avm.de/labor/GoFiber23/7590AX/FRITZ.Box_7590_AX-07.70-110409-LabBETA.image)
  - HWR 260: [FRITZ.Box_7583_VDSL-07.39-103078-LabBETA.image](http://download.avm.de/labor/MOVE21/7583VDSL/FRITZ.Box_7583_VDSL-07.39-103078-LabBETA.image)
  - HWR 272: [FRITZ.Box_5590_Fiber-07.70-110410-LabBETA.image](http://download.avm.de/labor/GoFiber23/5590Fiber/FRITZ.Box_5590_Fiber-07.70-110410-LabBETA.image)
 
@@ -147,4 +146,4 @@ Content: [FOS-Release](#fos-release) - [FOS-Labor](#fos-labor) - [FOS-Inhaus](#f
 ### Dect-Inhaus
 
 ### BPjM
- - CRC 9eed17f4: [bpjm_20231221_bpjm-modul_12_23.txt.data](http://download.avm.de/bpjm/240832/bpjm_20231221_bpjm-modul_12_23.txt.data)
+ - CRC 32090143: [bpjm_20240129_bpjm-modul_01_24.txt.data](http://download.avm.de/bpjm/242548/bpjm_20240129_bpjm-modul_01_24.txt.data)
