@@ -43,7 +43,7 @@ Content: [FOS-Release](#fos-release) - [FOS-Labor](#fos-labor) - [FOS-Inhaus](#f
  - HWR 221: [FRITZ.Box_7560-07.30.image](http://download.avm.de/fritzbox/fritzbox-7560/deutschland/fritz.os/FRITZ.Box_7560-07.30.image)
  - HWR 222: [FRITZ.Powerline_1240E.150.07.16.image](http://download.avm.de/fritzpowerline/fritzpowerline-1240e/deutschland/fritz.os/FRITZ.Powerline_1240E.150.07.16.image)
  - HWR 223: [FRITZ.Box_5490-07.31.image](http://download.avm.de/fritzbox/fritzbox-5490/other/fritz.os/FRITZ.Box_5490-07.31.image)
- - HWR 225: [FRITZ.Box_7580-07.12.image](http://download.avm.de/firmware/7580/jz76373/5382169925/other/fritz.os/FRITZ.Box_7580-07.12.image)
+ - HWR 225: [FRITZ.Box_7580-07.30.image](http://download.avm.de/fritzbox/fritzbox-7580/deutschland/fritz.os/FRITZ.Box_7580-07.30.image)
  - HWR 226: [FRITZ.Box_7590-07.57.image](http://download.avm.de/fritzbox/fritzbox-7590/deutschland/fritz.os/FRITZ.Box_7590-07.57.image)
  - HWR 227: [FRITZ.Box_4040-07.57.image](http://download.avm.de/fritzbox/fritzbox-4040/deutschland/fritz.os/FRITZ.Box_4040-07.57.image)
  - HWR 228: [FRITZ.Box_7582-07.17.image](http://download.avm.de/fritzbox/fritzbox-7582/other/fritz.os/FRITZ.Box_7582-07.17.image)
@@ -104,7 +104,7 @@ Content: [FOS-Release](#fos-release) - [FOS-Labor](#fos-labor) - [FOS-Inhaus](#f
  - HWR 263: [FRITZ.Repeater_600v2-07.57-111457-Inhaus.image](http://download.avm.de/inhaus/MOVE21NL1/600v2/FRITZ.Repeater_600v2-07.57-111457-Inhaus.image)
  - HWR 268: [FRITZ.Repeater_1200_AX-07.57-111007-Inhaus.image](http://download.avm.de/inhaus/MOVE21NL1/1200AX/FRITZ.Repeater_1200_AX-07.57-111007-Inhaus.image)
  - HWR 270: [FRITZ.Repeater_3000_AX-07.57-111005-Inhaus.image](http://download.avm.de/inhaus/MOVE21NL1/3000AX/FRITZ.Repeater_3000_AX-07.57-111005-Inhaus.image)
- - HWR 272: [FRITZ.Box_5590_Fiber-07.90-112603-Inhaus.image](http://download.avm.de/inhaus/Smart24P1/5590Fiber/FRITZ.Box_5590_Fiber-07.90-112603-Inhaus.image)
+ - HWR 272: [FRITZ.Box_5590_Fiber-07.90-112669-Inhaus.image](http://download.avm.de/inhaus/Smart24P1/5590Fiber/FRITZ.Box_5590_Fiber-07.90-112669-Inhaus.image)
 
 ### Dect-Release
  - MHW 01.01: [01.01.02.92.avme.de.upd](http://download.avm.de/dect/0101/01.01.02.92.avme.de.upd)
