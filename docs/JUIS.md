@@ -103,7 +103,6 @@ Content: [FOS-Release](#fos-release) - [FOS-Labor](#fos-labor) - [FOS-Inhaus](#f
  - HWR 249: [FRITZ.Powerline_1260-07.57-111465-Inhaus.image](http://download.avm.de/inhaus/MOVE21NL1/1260/FRITZ.Powerline_1260-07.57-111465-Inhaus.image)
  - HWR 253: [FRITZ.Repeater_6000-07.57-112923-Inhaus.image](http://download.avm.de/inhaus/MOVE21NL1/6000/FRITZ.Repeater_6000-07.57-112923-Inhaus.image)
  - HWR 256: [FRITZ.Box_7530_AX-08.10-121153-Inhaus.image](http://download.avm.de/inhaus/Smart24P2/7530AX/FRITZ.Box_7530_AX-08.10-121153-Inhaus.image)
- - HWR 257: [FRITZ.Box_5530_Fiber-08.10-121174-Inhaus.image](http://download.avm.de/inhaus/Smart24P2/5530Fiber/FRITZ.Box_5530_Fiber-08.10-121174-Inhaus.image)
  - HWR 258: [FRITZ.Box_6850_5G-08.10-120986-Inhaus.image](http://download.avm.de/inhaus/Smart24P2/68505G/FRITZ.Box_6850_5G-08.10-120986-Inhaus.image)
  - HWR 259: [FRITZ.Box_7590_AX-08.10-121146-Inhaus.image](http://download.avm.de/inhaus/Smart24P2/7590AX/FRITZ.Box_7590_AX-08.10-121146-Inhaus.image)
  - HWR 260: [FRITZ.Box_7583_VDSL-07.39-103078-LabBETA.image](http://download.avm.de/labor/MOVE21/7583VDSL/FRITZ.Box_7583_VDSL-07.39-103078-LabBETA.image)
